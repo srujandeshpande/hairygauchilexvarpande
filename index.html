@@ -9,110 +9,145 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css?h=2c0fc24b3d3038317dc51c05339856d0">
     <link rel="stylesheet" href="assets/css/Features-Blue.css?h=0622f876deff1d9fd592afc114c96de3">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css?h=d15dfcb68fabe0442ff06063b052477c">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css?h=cabc25193678a4e8700df5b6f6e02b7c">
     <link rel="stylesheet" href="assets/css/Header-Blue.css?h=7fad78607ce59d50c5d9dc2f028b4b7b">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css?h=bd36a0e1e15ca19cbc401cc5f46ca8ca">
     <link rel="stylesheet" href="assets/css/Projects-Horizontal.css?h=ab364d542384ec0beca0620a02ecd661">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css?h=da830b6503e0457b5735b0129f20b163">
     <link rel="stylesheet" href="assets/css/Social-Icons.css?h=0f9a464676f49120048997381494874d">
     <link rel="stylesheet" href="assets/css/styles.css?h=d41d8cd98f00b204e9800998ecf8427e">
 </head>
 
 <body>
-    <div data-bs-parallax-bg="true" style="height: 500px;background-image: url(&quot;assets/img/IMG_3323.JPG?h=1e9d273cff6e3021daba6bd28c3e6de6&quot;);background-position: center;background-size: cover;">
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-            <div class="container"><a class="navbar-brand" href="#">Hairy GauChiLex VarPande</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div
-                    class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Who are we</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">How did we meet</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact Us</a></li>
-                        <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true" href="#">Dropdown </a>
-                            <div class="dropdown-menu show" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
-                        </li>
-                    </ul>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><a class="navbar-brand" href="#">Hairy GauChiLex VarPande</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#who-are-we">About us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#how-did-we-meet">How we met</a></li>
+                </ul>
             </div>
-    </div>
+        </div>
     </nav>
+    <div class="simple-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(&quot;assets/img/IMG_3323.JPG?h=1e9d273cff6e3021daba6bd28c3e6de6&quot;);"></div>
+                <div class="swiper-slide" style="background-image: url(&quot;assets/img/hgv3.JPG?h=b22b688e3417ac901888e2ca8fe6b555&quot;);"></div>
+                <div class="swiper-slide" style="background-image: url(&quot;assets/img/hgv2.JPG?h=3b9ff2a29e832549652ca88fc83dc3be&quot;);"></div>
+                <div class="swiper-slide" style="background-image: url(&quot;assets/img/hgv1.jpg?h=cc88bac5d798591c16aa4b634432cdf3&quot;);"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
     </div>
     <div class="text-center projects-horizontal">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">Who are we?</h2>
+                <div class="intro">
+                    <h2 class="text-center" id="how-did-we-meet">How did we meet?</h2>
+                    <p class="text-center">We met in school!</p>
+                </div>
+                <h2 class="text-center" id="who-are-we">Who are we?</h2>
                 <p class="text-center">We are us.</p>
             </div>
-            <div class="intro">
-                <h2 class="text-center">How did we meet?</h2>
-                <p class="text-center">We met in school!</p>
-            </div>
             <div class="row projects">
-                <div class="col-sm-6 item">
+                <div class="col-sm-6 item" data-aos="fade-right" data-aos-duration="400">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/srulink.jpeg?h=8f5deae7a2bfb4d2eb3c372af8c67cd1"></a></div>
                         <div class="col">
                             <h3 class="name">Srujan Deshpande</h3>
                             <p class="description">Developer. Believer. Dreamer.<br></p>
-                            <a href="https://www.linkedin.com/in/srujandeshpande/" target="_blank">
+                            <a href="https://www.instagram.com/srujandeshpande/" target="_blank">
                                 <p class="description"><i class="icon ion-social-instagram"></i>&nbsp;@srujandeshpande</p>
+                            </a><a href="https://www.instagram.com/srujandeshpande/" target="_blank"></a>
+                            <a href="https://www.linkedin.com/in/srujandeshpande/" target="_blank">
                                 <p class="description"><i class="icon ion-social-linkedin"></i>&nbsp;@srujandeshpande</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 item">
+                <div class="col-sm-6 item" data-aos="fade-left" data-aos-duration="400" data-aos-delay="400">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/chirag.jpeg?h=451552f62315a7d087d05c8e644b0142"></a></div>
                         <div class="col">
                             <h3 class="name">Chirag Jain</h3>
                             <p class="description">Programmer. Go-Getter. Finisher.<br></p>
-                            <p class="description"><i class="icon ion-social-instagram"></i>&nbsp;@themasterchi</p>
+                            <a href="https://www.instagram.com/themasterchi" target="_blank">
+                                <p class="description"><i class="icon ion-social-instagram"></i>&nbsp;@themasterchi</p>
+                            </a>
+                            <a href="https://www.linkedin.com/in/chiragjain20/" target="_blank">
+                                <p class="description"><i class="icon ion-social-linkedin"></i>&nbsp;@chiragjain20</p>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 item">
+                <div class="col-sm-6 item" data-aos="fade-right" data-aos-duration="400" data-aos-delay="800">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/gaurang.jpeg?h=7cfd883219fef8b833b840d61bb14bfd"></a></div>
                         <div class="col">
                             <h3 class="name">Gaurang Asopa</h3>
                             <p class="description">Number Cruncher. Action Taker. Fast Mover.</p>
-                            <p class="description"><i class="icon ion-social-instagram"></i>&nbsp;@thegaurangasopa</p>
+                            <a href="https://www.instagram.com/thegaurangasopa" target="_blank">
+                                <p class="description"><i class="icon ion-social-instagram"></i>&nbsp;@thegaurangasopa</p>
+                            </a>
+                            <a href="https://www.linkedin.com/in/gaurang-asopa/" target="_blank">
+                                <p class="description"><i class="icon ion-social-linkedin"></i>&nbsp;@gaurang-asopa</p>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 item">
+                <div class="col-sm-6 item" data-aos="fade-left" data-aos-duration="400" data-aos-delay="1200">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/amrith.jpeg?h=b9ada703e48edf9aad38eb083eb7ce56"></a></div>
                         <div class="col">
                             <h3 class="name">Amrith Varma</h3>
                             <p class="description">Photographer. Thinker. Executer.</p>
-                            <p class="description"><i class="icon ion-social-instagram"></i>&nbsp;@the__varma</p>
+                            <a href="https://www.instagram.com/the__varma" target="_blank">
+                                <p class="description"><i class="icon ion-social-instagram"></i>&nbsp;@the__varma</p>
+                            </a>
+                            <a href="https://www.linkedin.com/in/amrith-varma-s-a14294177/" target="_blank">
+                                <p class="description"><i class="icon ion-social-linkedin"></i>&nbsp;@amrith-varma-s-a14294177</p>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 item">
+                <div class="col-sm-6 item" data-aos="fade-right" data-aos-duration="400" data-aos-delay="1600">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/avatar.png?h=89e70fd7779404718e838f7e5203eec3" style="height: 200px;"></a></div>
                         <div class="col">
                             <h3 class="name">Kathiresan Senthil</h3>
-                            <p class="description">Hard Worker. Learner. Team Player.</p>
-                        </div>
+                            <p class="description">Hard Worker. Learner. Team Player.</p><a href="https://www.instagram.com/themasterchi" target="_blank"></a></div>
                     </div>
                 </div>
-                <div class="col-sm-6 item">
+                <div class="col-sm-6 item" data-aos="fade-left" data-aos-duration="400" data-aos-delay="2000">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/avatar.png?h=89e70fd7779404718e838f7e5203eec3" style="height: 200px;"></a></div>
                         <div class="col">
                             <h3 class="name">Alex Stuart</h3>
-                            <p class="description">Carpenter. Miner. Driller.</p>
-                        </div>
+                            <p class="description">Carpenter. Miner. Driller.</p><a href="https://www.instagram.com/themasterchi" target="_blank"></a></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="social-icons"><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+    <div class="footer-basic">
+        <footer>
+            <p class="copyright">Hairy GauChiLex VarPande © 2020</p>
+        </footer>
+    </div>
     <script src="assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js?h=7c038681746a729e2fff9520a575e78c"></script>
-    <script src="assets/js/bs-init.js?h=fd094abbd1e3dcda2e26014c818b4b4f"></script>
+    <script src="assets/js/bs-init.js?h=cc4d20340936b09bec81533dd59db3a8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js?h=df0233e38c69d965b7833f56606b8826"></script>
 </body>
 
 </html>

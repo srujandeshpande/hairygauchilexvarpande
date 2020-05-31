@@ -1,6 +1,7 @@
 .projects-horizontal {
   color: #313437;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  /*background: linear-gradient(180deg, #172a74, #fff);*/
 }
 
 .projects-horizontal p {

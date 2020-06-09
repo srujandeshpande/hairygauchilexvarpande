@@ -23,6 +23,9 @@ Vibgyor High, Marathahalli, Bengaluru
 - Kathiresan Senthil
   - Electronics and Instrumentation Engineering at Ramaiah Institute of Technology
  - Alex Stuart
-   - Computer Science and Engineering at PES University
+   - Computer Science and Engineering at PES University  
+
+  
+   Created by Srujan!
 
 

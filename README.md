@@ -2,6 +2,9 @@
 The Official **Hairy GauChiLex VarPande** Website!  
 Visit us at https://hairygauchilexvarpande.space/  
 
+## Official Podacast!
+Check out our official podcast **Beyond Pondi**
+
 ## Who are we?
 We're a group of 6 friends!
 

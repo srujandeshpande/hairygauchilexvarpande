@@ -1,4 +1,4 @@
-# HairyGauChiLexVarPande
+# HairyGauChiLexVarPande and the home of Beyond Pondi
 The Official **Hairy GauChiLex VarPande** Website!  
 Visit us at https://hairygauchilexvarpande.space/  
 
